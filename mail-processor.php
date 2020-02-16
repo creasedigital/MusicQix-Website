@@ -11,5 +11,5 @@
     //send email
     mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "From:" . $email);
     
-    header('Location: http://musicqix.netlify.com/success.html');
+    header('Location: http://musicqix.netlify.com/mail-sent.html');
   }
