@@ -1,0 +1,265 @@
+/* Global CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  margin: 0.75rem 0;
+}
+
+/* Utility Classes */
+.container{
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+section{
+  background: #070007;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-primary{
+  color: #f0ff1c;
+}
+
+.text-light{
+  color: #f4f4f4;
+}
+
+.text-dark{
+  color: #070007;
+}
+
+.text-designation{
+  /* font-style: italic; */
+  font-weight: 600;
+  font-size: small;
+}
+
+.text-faded{
+  opacity: 0.7;
+}
+
+.bg-primary{
+  background: #f0ff1c;
+  color: #070007;
+}
+
+.bg-dark{
+  background: #070007;
+  color: #f4f4f4;
+}
+
+.bg-light{
+  background: #f4f4f4;
+  color: #070007;
+}
+
+.xl-heading{
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.2;
+}
+
+.m-heading{
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.0;
+}
+
+.lead{
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.py-1{padding: 1.5rem 0;}
+.py-2{padding: 2rem 0;}
+.py-3{padding: 3rem 0;}
+
+.p-1{padding: 1.5rem;}
+.p-2{padding: 2rem;}
+.p-3{padding: 3rem;}
+
+.btn{
+  display: inline-block;
+  color: #070007;
+  background: #f0ff1c;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background: #c1ce15;
+}
+
+.btn-dark{
+  display: inline-block;
+  color: #f0ff1c;
+  background: #070007;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+
+/* Navbar */
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: #070007;
+  color: #f4f4f4;
+  z-index: 100;
+  padding: 1rem;
+}
+
+#navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a{
+  color: #f4f4f4;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover{
+  background: #f0ff1c;
+  color: #070007;
+  border-radius: 5px;
+}
+
+/* Banner */
+#banner{
+  background: #070007 url('../img/banner.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: #f4f4f4;
+}
+
+#banner .banner-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 2rem;
+  /* Overlay */
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(7, 0, 7, 0.7);
+}
+
+/* Section: Services */
+#services{
+  background: #070707;
+}
+
+#services .boxes{
+  display: flex;
+  padding: 1rem;
+  color: #f4f4f4;
+}
+
+#services .boxes .box{
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+#services .boxes .box i{
+  background: #f0ff1c;
+  border-radius: 50%;
+  padding: 1rem;
+  color: #070007;
+  margin-bottom: 1rem;
+}
+
+.write-ups{
+  padding-top: 2rem;
+}
+
+/* Section: About */
+#about{
+  color: #f4f4f4;
+  display: flex;
+}
+
+#about div{
+  flex: 1;
+}
+
+#about .about-img{
+  background: url('../img/people.jpg') no-repeat center center/cover;
+}
+
+#about .team-list{
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+#about .team-list li{
+  padding: 0.5rem 0;
+  border-bottom: #f0ff1c dotted 1px;
+}
+
+/* Clients */
+#clients .items{
+  display: flex;
+}
+
+#clients .items img{
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+/* Section: Contact */
+#contact{
+  display: flex;
+}
+
+#contact #map, #contact .contact-form{
+  flex: 1;
+}
+
+#contact .contact-form .form-group{
+  margin: 0.75rem;
+}
+
+#contact .contact-form label{
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+  width: 100%;
+  padding: 0.5rem;
+}
+

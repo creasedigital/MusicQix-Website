@@ -1,0 +1,78 @@
+#services .boxes{
+  display: block;
+}
+
+/* Align icons to left */
+#services .boxes .box{
+  display: flex;
+  text-align: left;
+  padding: 1rem;
+}
+
+/* Position icon */
+#services .boxes .box i{
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+/* Smartphones */
+@media(max-width: 500px){
+  #navbar{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar .logo{
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  #navbar ul{
+    padding: 0.5rem;
+  }
+
+  #banner .banner-content{
+    top: 110px;
+    margin-top: -2rem;
+  }
+
+  #about{
+    display: block;
+  }
+
+  #about .about-img{
+    display: none;
+  }
+
+  #about h2{
+    text-align: center;
+  }
+
+  #clients .items img{
+    width: 80%;
+  }
+
+  #clients .items div:last-child{
+    display: none;
+  }
+
+  #contact{
+    flex-direction: column;
+  }
+
+  #contact #map{
+    height: 200px;
+    border-top: 4px solid #f0ff1c;
+  }
+}
+
+@media(max-height: 568px){
+  .xl-heading{
+    font-size: 3rem;
+  }
+
+  .lead{
+    font-size: 1rem;
+  }
+}
