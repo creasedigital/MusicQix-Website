@@ -13,3 +13,5 @@
     
     header('Location: http://musicqix.netlify.com/mail-sent.html');
   }
+
+  ?>
