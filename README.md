@@ -1,4 +1,5 @@
 # MusicQix-Website
+Visit the site at https://musicqix.netlify.com
 
 This is a single-page web application
 
