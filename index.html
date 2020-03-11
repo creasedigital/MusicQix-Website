@@ -43,7 +43,9 @@
       <h2 class="m-heading text-center text-light">Our <span class="text-primary">Services</span></h2>
       <div class="boxes">
         <div class="box">
-          <i class="fas fa-microphone fa-2x"></i>
+          <div class="icon-box">
+            <i class="fas fa-microphone fa-2x"></i>
+          </div>
           <div class="write-ups">
             <h3>Recording Sessions</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione animi ad quos eaque, enim doloremque.
@@ -51,7 +53,9 @@
           </div>
         </div>
         <div class="box">
-          <i class="fas fa-suitcase fa-2x"></i>
+          <div class="icon-box">
+            <i class="fas fa-suitcase fa-2x"></i>
+          </div>
           <div class="write-ups">
             <h3>Artists Management</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione animi ad quos eaque, enim doloremque.
@@ -59,7 +63,9 @@
           </div>
         </div>
         <div class="box">
-          <i class="fas fa-music fa-2x"></i>
+          <div class="icon-box">
+            <i class="fas fa-music fa-2x"></i>
+          </div>
           <div class="write-ups">
             <h3>Quality Music</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione animi ad quos eaque, enim doloremque.
@@ -109,7 +115,7 @@
     <div class="contact-form bg-primary p-2">
       <h2 class="m-heading text-center text-dark">Contact Us</h2>
       <p class="text-center">Talk to us</p>
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" method="POST" data-netlify="true" action="/mail-sent">
         <div class="form-group">
           <label for="name">Name</label>
           <input type="text" name="name" id="name" placeholder="enter your name here">

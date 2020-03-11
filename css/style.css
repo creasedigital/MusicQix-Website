@@ -195,10 +195,17 @@ section{
 
 #services .boxes .box i{
   background: #f0ff1c;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   padding: 1rem;
   color: #070007;
   margin-bottom: 1rem;
+  text-align: center;
+}
+
+#services .icon-box{
+  align-self: center;
 }
 
 .write-ups{
